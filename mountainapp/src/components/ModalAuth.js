@@ -66,7 +66,7 @@ const ModalAuth = () => {
                           touched,
                           handleBlur,
                           isSubmitting
-                    }) => (
+                      }) => (
                         <form onSubmit={(e) => onSubmit(e)}>
                             <input
                                 required

@@ -8,12 +8,15 @@
   .navEl, .navLogo {
     cursor: pointer;
     padding: 0 20px;
+
     &:hover {
       text-shadow: 1px 1px grey;
     }
+
     &:active {
       box-shadow: 1px 1px grey;
     }
+
     @media (max-width: 425px) {
       font-size: 0.9rem;
       padding: 0 10px;
@@ -25,17 +28,6 @@
 
   }
 }
-//@media (max-width: 375px) {
-//  .navList {
-//    padding-top: 1.5em;
-//
-//    .navEl, .navLogo {
-//      font-size: 0.9rem;
-//      padding: 0 5px;
-//    }
-//  }
-//}
-
 
 .text-shadow-pop-top:hover {
   -webkit-animation: text-shadow-pop-top 0.6s both;
@@ -67,6 +59,3 @@
     transform: translateY(8px);
   }
 }
-
-
-

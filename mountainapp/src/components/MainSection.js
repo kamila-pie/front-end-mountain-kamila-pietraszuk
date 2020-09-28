@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import ModalAuth from "./ModalAuth";
 
 const MainSection = () => {
-
     const [isVisable, setIsVisable] = useState(false);
 
     const handleEnter = () => {

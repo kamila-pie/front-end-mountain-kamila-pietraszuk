@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: calc(100vh - 160px);
+
   h1 {
     font-size: 3.5rem;
     font-family: 'Lobster Two', cursive;
@@ -47,10 +48,12 @@ button {
   transition: 0.6s;
   cursor: pointer;
   background-image: linear-gradient(45deg, #b79e6f, #9f6800);
+
   &:hover {
     background-position: right;
     box-shadow: 1px 1px grey;
   }
+
   &:active {
     background-position: right;
     box-shadow: 1px 1px grey;
