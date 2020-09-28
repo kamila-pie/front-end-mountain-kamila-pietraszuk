@@ -6,11 +6,11 @@ const Nav = () => {
         <header>
             <nav>
                 <ul className={'navList'}>
-                    <li className={'navEl'}>ABOUT</li>
-                    <li className={'navEl'}>OFFER</li>
+                    <li className={'navEl text-shadow-pop-top'}>ABOUT</li>
+                    <li className={'navEl text-shadow-pop-top'}>OFFER</li>
                     <img className={'navLogo'} src={logo} alt={'shirt'}/>
-                    <li className={'navEl'}>GALLERY</li>
-                    <li className={'navEl'}>CONTACT</li>
+                    <li className={'navEl text-shadow-pop-top'}>GALLERY</li>
+                    <li className={'navEl text-shadow-pop-top'}>CONTACT</li>
                 </ul>
             </nav>
         </header>

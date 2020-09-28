@@ -12,5 +12,20 @@ footer {
   height: 4em;
   p {
     padding: 0 10px;
+    @media (max-width: 375px) {
+        padding: 0 2px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+    @media (max-width: 375px) {
+      padding: 0;
+    }
+  }
+  span {
+    font-weight: bold;
   }
 }
+

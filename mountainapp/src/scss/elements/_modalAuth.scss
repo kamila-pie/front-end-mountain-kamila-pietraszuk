@@ -34,5 +34,27 @@ form {
   input {
     margin: 5px;
     padding: 5px 10px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: dimgray;
+    text-align: center;
   }
+}
+
+.has-error {
+  border-bottom: 2px solid orange;
+}
+
+.formMsg {
+  color: #3C3C3C;
+  font-size: 12px;
+  padding: 5px 0 0 10px;
+}
+
+.invalid {
+  color: orange;
+}
+
+.valid {
+  color: green;
 }
