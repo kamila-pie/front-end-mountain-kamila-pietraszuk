@@ -1,14 +1,14 @@
 import React from "react";
 
-const Main = () => {
+const MainSection = () => {
     return (
         <main>
             <section className={'mainSection'}>
                 <h1>Mountain kindom</h1>
-                <button className={'btn'}>ENTER THE GATES</button>
+                <button className={'btn'} >ENTER THE GATES</button>
             </section>
         </main>
     )
 }
 
-export default Main;
+export default MainSection;

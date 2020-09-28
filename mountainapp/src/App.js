@@ -1,7 +1,7 @@
 import React from 'react';
 import './scss/main.scss';
 import Nav from "./components/Nav";
-import Main from "./components/Main";
+import MainSection from "./components/MainSection";
 import Footer from "./components/Footer";
 import ModalAuth from "./components/ModalAuth";
 
@@ -9,7 +9,7 @@ const App = () => {
     return (
         <>
             <Nav/>
-            <Main/>
+            <MainSection/>
             <Footer/>
             <ModalAuth/>
         </>
