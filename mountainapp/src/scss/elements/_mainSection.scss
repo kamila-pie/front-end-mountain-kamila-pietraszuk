@@ -1,0 +1,55 @@
+.mainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 160px);
+  h1 {
+    font-size: 3.5rem;
+    font-family: 'Lobster Two', cursive;
+  }
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+  /* Remove excess padding and border in Firefox 4+ */
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+
+.btn {
+  color: #F0F1F1;
+  width: 220px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  box-shadow: none;
+  border-radius: 20px;
+  border: none;
+  background-size: 200%;
+  transition: 0.6s;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, #b79e6f, #9f6800);
+  &:hover {
+    background-position: right;
+    box-shadow: 1px 1px grey;
+  }
+  &:active {
+    background-position: right;
+    box-shadow: 1px 1px grey;
+  }
+}

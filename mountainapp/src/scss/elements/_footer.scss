@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000b5;
+  font-size: 0.6em;
+  height: 4em;
+  p {
+    padding: 0 10px;
+  }
+}

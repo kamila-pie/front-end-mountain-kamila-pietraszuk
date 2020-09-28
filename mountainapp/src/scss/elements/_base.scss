@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-seri;
+  //font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #F0F1F1;
+  font-weight: lighter;
+  line-height: 1.2;
+  text-align: center;
+  background-image: url("../../assets/mountain_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 400;
+}
+
+*:focus {
+  outline: 0 !important;
+}
