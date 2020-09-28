@@ -58,4 +58,7 @@ button {
     background-position: right;
     box-shadow: 1px 1px grey;
   }
+  @media (min-width: 1030px) {
+    width: 327px;
+  }
 }

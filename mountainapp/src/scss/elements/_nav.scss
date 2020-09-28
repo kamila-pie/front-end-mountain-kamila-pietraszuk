@@ -16,7 +16,10 @@
     &:active {
       box-shadow: 1px 1px grey;
     }
-
+    @media (max-width: 1030px) {
+      font-size: 0.9rem;
+      padding: 0 20px;
+    }
     @media (max-width: 425px) {
       font-size: 0.9rem;
       padding: 0 10px;
